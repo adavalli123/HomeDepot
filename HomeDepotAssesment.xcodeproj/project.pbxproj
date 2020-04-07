@@ -39,6 +39,8 @@
 		8DE9D408243C3B4C00800414 /* TopAlbumsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9D3FA243C3B4C00800414 /* TopAlbumsViewControllerTests.swift */; };
 		8DE9D40A243C3B4C00800414 /* UIStackViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9D3FE243C3B4C00800414 /* UIStackViewTest.swift */; };
 		8DE9D40B243C3B4C00800414 /* UILabelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9D3FF243C3B4C00800414 /* UILabelTest.swift */; };
+		8DE9D410243C4D8E00800414 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9D40E243C4D8E00800414 /* list.png */; };
+		8DE9D411243C4D8E00800414 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9D40F243C4D8E00800414 /* grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		8DE9D3FA243C3B4C00800414 /* TopAlbumsViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewControllerTests.swift; sourceTree = "<group>"; };
 		8DE9D3FE243C3B4C00800414 /* UIStackViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewTest.swift; sourceTree = "<group>"; };
 		8DE9D3FF243C3B4C00800414 /* UILabelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelTest.swift; sourceTree = "<group>"; };
+		8DE9D40E243C4D8E00800414 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		8DE9D40F243C4D8E00800414 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		8DE9D39A243C168000800414 = {
 			isa = PBXGroup;
 			children = (
+				8DE9D40D243C4D6A00800414 /* Images */,
 				8DE9D3A5243C168000800414 /* HomeDepotAssesment */,
 				8DE9D3BC243C168400800414 /* HomeDepotAssesmentTests */,
 				8DE9D3A4243C168000800414 /* Products */,
@@ -129,6 +134,7 @@
 		8DE9D3A5243C168000800414 /* HomeDepotAssesment */ = {
 			isa = PBXGroup;
 			children = (
+				8DE9D40C243C4D5200800414 /* ViewControllers */,
 				8DE9D3DE243C1F0B00800414 /* Services */,
 				8DE9D3D3243C1BD100800414 /* Views */,
 				8DE9D3D0243C1B8B00800414 /* Extensions */,
@@ -136,7 +142,6 @@
 				8DE9D3C8243C19F100800414 /* Modal */,
 				8DE9D3A6243C168000800414 /* AppDelegate.swift */,
 				8DE9D3A8243C168000800414 /* SceneDelegate.swift */,
-				8DE9D3AA243C168000800414 /* TopAlbumsViewController.swift */,
 				8DE9D3AF243C168400800414 /* Assets.xcassets */,
 				8DE9D3B1243C168400800414 /* LaunchScreen.storyboard */,
 				8DE9D3B4243C168400800414 /* Info.plist */,
@@ -262,6 +267,23 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		8DE9D40C243C4D5200800414 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9D3AA243C168000800414 /* TopAlbumsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8DE9D40D243C4D6A00800414 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9D40F243C4D8E00800414 /* grid.png */,
+				8DE9D40E243C4D8E00800414 /* list.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,6 +374,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE9D410243C4D8E00800414 /* list.png in Resources */,
+				8DE9D411243C4D8E00800414 /* grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
