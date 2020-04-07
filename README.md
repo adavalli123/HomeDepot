@@ -8,3 +8,5 @@
 - Xcode
 - Simulator
 - apple feeds
+- MVVM
+- POP
